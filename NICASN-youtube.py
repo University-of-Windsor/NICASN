@@ -87,7 +87,7 @@ names = graph.names
 cv = [(slice(None), slice(None))] #to remove cross validation
 #adjacency = adjacency[:k][:,:k]
 est=KMeansClustering(n_clusters=2, n_neighbors=10, n_components=50, adjacency=adjacency)
-parameters = {'n_clusters':[5375],'n_neighbors':[5],'n_components':[5375],'adjacency':[adjacency]}
+parameters = {'n_clusters':[2,3,4,5,6,7,8,9,10],'n_neighbors':[5],'n_components':[50,60,70,80,90,100],'adjacency':[adjacency]}
 clf = GridSearchCV(est, parameters,error_score='raise',cv=cv)
 adjacency._shape[0]
 clf.fit(adjacency)
