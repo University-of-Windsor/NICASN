@@ -16,7 +16,8 @@ Leave you comment if you have further questions, or reach out to me directly by 
 
 
 
-
+If you are using this work, please cite as:
+Tadi, A. A., Rueda, L., & Alhadidi, D. (2022). NICASN: Non-negative Matrix Factorization and Independent Component Analysis for Clustering Social Networks. Proceedings of the Canadian Conference on Artificial Intelligence. https://doi.org/10.21428/594757db.c6794307
 
 
 Sincerely,
